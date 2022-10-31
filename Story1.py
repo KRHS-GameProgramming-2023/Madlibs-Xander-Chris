@@ -12,11 +12,6 @@ def Story1(debug = False):
     amountOfTime = getWord("Enter a amont of time ", debug)
     emotion1 = getWord("Enter a emotion ", debug)
     
-    
-    
-    
-    
-    
     out = "\n"
     out += "\n"
     out+= "One day me and my friend " + friendName1
@@ -26,13 +21,7 @@ def Story1(debug = False):
     out+= " he had to go to the " +baseLocation
     out+= ". he couldn't play for " +amountOfTime
     out+= " It was " + emotion1
-   
-    
-    
-    
-    
-    
-    
+
     return out 
 
 
