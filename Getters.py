@@ -71,6 +71,32 @@ def getSport(prompt, debug = False):
             print ("sorry, I don't know that sport.")
         
     return word  
+    
+def getBodyPart(prompt, debug = False):
+    if debug: print("getgetSport Function")
+    
+    goodInput = False
+    
+    bodyParts = ["hand",
+              "foot",
+              "head",
+              "knee",
+              "elbow",
+              "jaw"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in bodyParts:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that body part.")
+        
+    return word  
 
 def isSwear (word, debug = False):
     if debug: print("isSwear Function")
