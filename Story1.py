@@ -23,8 +23,8 @@ def Story1(debug = False):
     out+= " Were out playing " + sport1
     out += " and he hurt his " + bodyPart
     out+= ".  He was " + medicalCondition
-    out+= " he had to go to the" +baseLocation
-    out+= ". he couldn't play for" +amountOfTime
+    out+= " he had to go to the " +baseLocation
+    out+= ". he couldn't play for " +amountOfTime
     out+= " It was " + emotion1
    
     
