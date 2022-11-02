@@ -20,8 +20,13 @@ def Madlibs (debug = False):
         if choice == "q":
             exit();
             
-        elif choice == "1":
+        if choice == "1":
             print(Story1())
+            print("\n") 
+            input("press enter to continue")
+            
+        elif choice == "2":
+            print(Story2())
             print("\n") 
             input("press enter to continue")
             
