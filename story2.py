@@ -20,7 +20,7 @@ def Story2(debug = False):
     out+= " and then decided to get a " + furniture
     out+= ". there barly was enough space in the " + vehical
     out+= ". "
-    out+=""
+    out+= ""
      
     return out 
 
