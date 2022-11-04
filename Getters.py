@@ -29,6 +29,14 @@ def getMenuOption(debug = False):
             option == "story 2"):
                 option = "2"
                 goodInput = True
+
+         elif (option == "3" or 
+            option == "story 3" or 
+            option == "story3" or 
+            option == "three" or
+            option == "story three"):
+                option = "3"
+                goodInput = True
                         
         elif (option == "u"):
                 option = "unicorn"
@@ -77,6 +85,64 @@ def getSport(prompt, debug = False):
             goodInput= False
             print("\n")
             print ("sorry, I don't know that sport.")
+        
+    return word  
+    
+def getMeat(prompt, debug = False):
+    if debug: print("getgetMeat Function")
+    
+    goodInput = False
+    
+    meats = ["bacon",
+              "staek",
+              "chicken",
+              "beef",
+              "spam",
+              "fish",
+              "squid"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in meats:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that meat.")
+        
+    return word  
+    
+    
+    
+    
+    
+def getEmotion(prompt, debug = False):
+    if debug: print("getgetEmotion Function")
+    
+    goodInput = False
+    
+    meats = ["happy",
+              "sad",
+              "mad",
+              "disgusted",
+              "scared",
+              "fear",
+              "lol"]
+    
+    while not goodInput:
+        word = input(prompt)
+        goodInput = True
+        if isSwear (word):
+            goodInput= False
+            print("\n")
+            print ("don't use language like that")
+        elif word.lower() not in emotions:
+            goodInput= False
+            print("\n")
+            print ("sorry, I don't know that emotion.")
         
     return word  
     
