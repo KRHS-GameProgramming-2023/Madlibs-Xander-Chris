@@ -25,6 +25,7 @@ def Madlibs (debug = False):
             print(Story1())
             print("\n") 
             input("press enter to continue")
+            
         elif choice == "3":
             print(Story3())
             print("\n") 
