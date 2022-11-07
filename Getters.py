@@ -30,7 +30,7 @@ def getMenuOption(debug = False):
                 option = "2"
                 goodInput = True
 
-         elif (option == "3" or 
+        elif (option == "3" or 
             option == "story 3" or 
             option == "story3" or 
             option == "three" or
