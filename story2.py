@@ -9,18 +9,18 @@ def Story2(debug = False):
     kitchenAplience = getWord("Enter a kichen applience ", debug)
     furniture = getWord("Enter a peice of furniture ", debug)
     vehical = getWord("Enter a vehical ", debug)
- 
- 
+    gasStationName = getWord("Enter a gas station name ", debug)
+    dscrp = getWord("Enter a description word ", debug)
  
     out ="\n"
     out+="\n"
-    out+= " one day me annd my friend " + friendName1
-    out+= " went to a stre called " + storeName
+    out+= " one day me and my friend " + friendName1
+    out+= " went to a store called " + storeName
     out+= ". he decided to buy a " + kitchenAplience
     out+= " and then decided to get a " + furniture
     out+= ". there barly was enough space in the " + vehical
-    out+= ". "
-    out+= ""
+    out+= ". there wsa just enough gas to get to the " + gasStationName
+    out+= ". the day was very " + dscrp
      
     return out 
 
