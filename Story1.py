@@ -10,7 +10,7 @@ def Story1(debug = False):
     medicalCondition = getWord("Enter a medical condition ", debug)
     baseLocation = getWord("Enter a base location ", debug)
     amountOfTime = getWord("Enter a amont of time ", debug)
-    emotion1 = getWord("Enter a emotion ", debug)
+    emotion1 = getEmotion("Enter a emotion ", debug)
     
     out = "\n"
     out += "\n"
