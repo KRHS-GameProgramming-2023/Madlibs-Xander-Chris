@@ -5,12 +5,12 @@ def Story2(debug = False):
 
     print("\n")
     friendName1 = getWord("Enter a name ", debug)
-    storeName = getWord("Enter a store name ", debug)
-    kitchenAplience = getWord("Enter a kichen applience ", debug)
-    furniture = getWord("Enter a peice of furniture ", debug)
-    vehical = getWord("Enter a vehical ", debug)
-    gasStationName = getWord("Enter a gas station name ", debug)
-    dscrp = getWord("Enter a description word ", debug)
+    storeName = getstoreName("Enter a store name ", debug)
+    kitchenAplience = getkitchenAplience("Enter a kichen applience ", debug)
+    furniture = getfurniture("Enter a peice of furniture ", debug)
+    vehical = getVehicle("Enter a mode of transportation ", debug)
+    gasStationName = getGasStationName("Enter a gas station name ", debug)
+    dscrp = getdscrp("Enter a word that you would use to describe how your day went ", debug)
  
     out ="\n"
     out+="\n"
@@ -19,8 +19,8 @@ def Story2(debug = False):
     out+= ". he decided to buy a " + kitchenAplience
     out+= " and then decided to get a " + furniture
     out+= ". there barly was enough space in the " + vehical
-    out+= ". there wsa just enough gas to get to the " + gasStationName
-    out+= ". the day was very " + dscrp
+    out+= ". there was just enough gas to get to the closest " + gasStationName
+    out+= ". the day was " + dscrp
      
     return out 
 
